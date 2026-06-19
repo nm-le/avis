@@ -196,8 +196,6 @@ The core AVIS logic in the modeling file: KDV key-diversity scoring is captured 
 
 ## Acknowledgements
 
-AVIS is built on a fork of 🤗 [Transformers](https://github.com/huggingface/transformers) and uses [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL) as the primary backbone. KDV adapts the key-diversity idea from [KeyDiff](https://arxiv.org/abs/2504.15364) (KV-cache eviction) to visual token pruning, calibration-set curation follows the [s1](https://github.com/simplescaling/s1) Quality/Diversity/Difficulty principles, and evaluation uses [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
+AVIS is built on a fork of 🤗 [Transformers](https://github.com/huggingface/transformers) and uses [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL) as the primary backbone. Evaluation uses [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 
-## License
 
-The bundled `transformers/` fork retains its original Apache-2.0 license. See `transformers/LICENSE`. Add a top-level `LICENSE` for the AVIS-specific code.
